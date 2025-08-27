@@ -3,7 +3,7 @@ import NavBar from '../NavBar/Navbar';
 import { Link } from 'react-router-dom';
 import LinkedIn from '../../assets/linkedin.png'
 import GitHub from '../../assets/github.png'
-import Email from '../../assets/email.jpg'
+import Email from '../../assets/email.png'
 
 const HomePage = () => {
 
@@ -26,27 +26,27 @@ const HomePage = () => {
         </a>
 
         {/* Socials Icons */}
-        <div className = "flex items-center">
+        <div className = "flex items-center space-x-4 mt-8">
           <a 
-            href="www.linkedin.com/in/sophie-choi-b78991319" 
+            href="https://www.linkedin.com/in/sophie-choi-b78991319/" 
             target="_blank" 
             rel="noopener noreferrer"
           >
-            <img src = {LinkedIn}/> 
+            <img src = {LinkedIn} className = "w-[60px]"/> 
           </a>
           <a 
             href="https://github.com/destructivebasket" 
             target="_blank" 
             rel="noopener noreferrer"
           >
-            <img src = {GitHub}/> 
+            <img src = {GitHub} className = "w-[60px]"/> 
           </a>
           <a 
             href="mailto:sophie.elissa.choi@gmail.com" 
             target="_blank" 
             rel="noopener noreferrer"
           >
-            <img src = {Email}/> 
+            <img src = {Email} className = "w-[60px]"/> 
           </a>
         </div>
       </div>
