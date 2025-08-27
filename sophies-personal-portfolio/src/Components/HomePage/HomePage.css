@@ -34,7 +34,7 @@ body {
 }
 
 #name {
-    @apply left-0 font-[Poppins-Bold] text-white mt-5 text-[64px];
+    @apply left-0 font-[Poppins-Bold] text-white mt-5 text-[64px] max-sm:text-[55px];
 }
 
 .gradient {
@@ -49,7 +49,8 @@ body {
 }
 
 #resume-button {
-    @apply mt-20 w-[300px] h-[90px] text-[30px] font-[Poppins-Bold] rounded-2xl
+    @apply mt-20 -translate-x-25 w-[300px] h-[90px] text-[30px] font-[Poppins-Bold] rounded-2xl
     text-white hover:[background-image:linear-gradient(to_bottom,rgba(255,6,240,1)_100%)]
-    [background-image:linear-gradient(to_bottom,rgba(135,0,255,1)_10%,rgba(255,6,240,1)_90%)];
+    [background-image:linear-gradient(to_bottom,rgba(135,0,255,1)_10%,rgba(255,6,240,1)_90%)]
+    max-sm:-translate-x-20;
 }
