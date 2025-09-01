@@ -26,9 +26,10 @@ p {
 
 #about-me {
     @apply font-bold text-transparent bg-clip-text font-[Poppins-Bold] text-[72px]
-    bg-[radial-gradient(circle,rgba(238,53,157,1)_10%,rgba(183,40,255,1)_77%)];
+    bg-[radial-gradient(circle,rgba(238,53,157,1)_10%,rgba(183,40,255,1)_77%)]
+    max-sm:w-[250px];
 }
 
 #about-me-paragraph {
-    @apply text-white text-left w-[700px];
+    @apply text-white text-left w-[700px] max-sm:w-[250px];
 }

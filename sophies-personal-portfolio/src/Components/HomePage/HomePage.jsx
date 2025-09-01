@@ -1,9 +1,6 @@
 import './HomePage.css'
 import NavBar from '../NavBar/Navbar';
-import { Link } from 'react-router-dom';
-import LinkedIn from '../../assets/linkedin.png'
-import GitHub from '../../assets/github.png'
-import Email from '../../assets/email.png'
+import Socials from '../Socials/Socials';
 
 const HomePage = () => {
 
@@ -13,7 +10,7 @@ const HomePage = () => {
       <NavBar/>
 
       {/* Intro Text */}
-      <div className = "flex flex-col absolute left-0 top-50 ml-20">
+      <div className = "sm:absolute left-0 top-50 sm:ml-10 max-sm:mr-10">
         <p id = "hello"> Hello! </p>
         <h1 id = "name"> I'm <span className = "gradient"> Sophie Choi </span> </h1>
         <h2 id = "intro-line"> CS @ UC Irvine </h2>
@@ -26,29 +23,7 @@ const HomePage = () => {
         </a>
 
         {/* Socials Icons */}
-        <div className = "flex items-center space-x-4 mt-8">
-          <a 
-            href="https://www.linkedin.com/in/sophie-choi-b78991319/" 
-            target="_blank" 
-            rel="noopener noreferrer"
-          >
-            <img src = {LinkedIn} className = "w-[60px]"/> 
-          </a>
-          <a 
-            href="https://github.com/destructivebasket" 
-            target="_blank" 
-            rel="noopener noreferrer"
-          >
-            <img src = {GitHub} className = "w-[60px]"/> 
-          </a>
-          <a 
-            href="mailto:sophie.elissa.choi@gmail.com" 
-            target="_blank" 
-            rel="noopener noreferrer"
-          >
-            <img src = {Email} className = "w-[60px]"/> 
-          </a>
-        </div>
+        <Socials/>
       </div>
     </div>
   )

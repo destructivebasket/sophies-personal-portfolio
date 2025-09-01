@@ -2,6 +2,8 @@ import { Link } from 'react-router-dom'
 import './NavBar.css'
 
 const Navbar = () => {
+  const isMobile = /Mobi|Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
+
   return (
     <div className = "nav-bar">
         <h2 className = "ml-5 font-[Poppins-Bold] text-[#ff3497FF] text-[18px]"> Sophie </h2>
