@@ -30,7 +30,7 @@ h3 {
 }
 
 .gradient {
-    @apply font-bold text-transparent bg-clip-text 
+    @apply font-bold text-transparent bg-clip-text
     [background-image:radial-gradient(circle,rgba(238,53,157,1)_40%,rgba(183,40,255,1)_77%)];
 }
 
