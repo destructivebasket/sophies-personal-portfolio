@@ -5,7 +5,7 @@ const Navbar = () => {
   const isMobile = /Mobi|Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
 
   return (
-    <div className = "nav-bar">
+    <div className = "nav-bar z-50">
         <h2 className = "ml-5 font-[Poppins-Bold] text-[#ff3497FF] text-[18px]"> Sophie </h2>
         <div className = "flex space-x-4 mr-80 max-sm:space-x-0">
             <Link to = "/sophies-personal-portfolio/">

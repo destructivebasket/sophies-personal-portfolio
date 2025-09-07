@@ -8,7 +8,7 @@ const AboutMe = () => {
     <div className = "bg-[#1e0332FF]">
       <NavBar/>
       
-      <div className = "flex mt-20 space-x-50 space-y-4 max-sm:flex-col">
+      <div className = "flex mt-20 space-x-50 space-y-4 max-lg:flex-col">
         
         <img src = { Sophie } className = "w-[370px] rounded-2xl max-sm:w-[250px]"/>
 
@@ -19,24 +19,24 @@ const AboutMe = () => {
           </p>
 
           <div className = "mt-10 space-y-4">
-            <p className = "text-left grid grid-cols-2 max-sm:text-[12px]"> 
+            <p className = "text-left grid grid-cols-2 max-md:text-[12px]"> 
               <span> Name: </span> <span className = "text-gray-400"> Sophie Choi </span> 
             </p>
-            <p className = "text-left grid grid-cols-2 max-sm:text-[12px]"> 
+            <p className = "text-left grid grid-cols-2 max-md:text-[12px]"> 
               <span> Date of Birth: </span> <span className = "text-gray-400"> August 23, 2007 </span> 
             </p>
-            <p className = "text-left grid grid-cols-2 max-sm:text-[12px]"> 
+            <p className = "text-left grid grid-cols-2 max-md:text-[12px]"> 
               <span> Located: </span> <span className = "text-gray-400"> Los Angeles, CA </span> 
               <br/> 
               <span className = "text-gray-400"> Irvine, CA </span> 
             </p>
-            <p className = "text-left grid grid-cols-2 max-sm:text-[12px]"> 
+            <p className = "text-left grid grid-cols-2 max-md:text-[12px]"> 
               <span> Email: </span> 
               <span className = "text-gray-400"> Personal: sophie.elissa.choi@gmail.com </span> 
               <br/> 
               <span className = "text-gray-400"> School: sechoi3@uci.edu </span> 
             </p>
-            <p className = "text-left grid grid-cols-2 max-sm:text-[12px]"> 
+            <p className = "text-left grid grid-cols-2 max-md:text-[12px]"> 
               <span> Phone: </span> 
               <span className = "text-gray-400"> 626-734-3575 </span> 
             </p>
