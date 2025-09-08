@@ -2,6 +2,10 @@ import NavBar from '../NavBar/Navbar';
 import './Portfolio.css';
 import PortfolioCard from './PortfolioCard';
 import Emageo from '../../assets/emageo.png';
+import Mathclopedia from '../../assets/mathclopedia.png';
+import Jellyfish from '../../assets/jellyfish.png';
+import Movie from '../../assets/movie.png';
+import Station8 from '../../assets/station8.png';
 
 const Portfolio = () => {
   return (
@@ -24,18 +28,21 @@ const Portfolio = () => {
               title = "Mathclopedia"
               description = {`Developed a math-assist platform using HTML, CSS, and JavaScript, hosted on Github Pages
                               Designed an intuitive interface with categorized tabs, ranging from Algebra to Calculus concepts`}
+              picture = {Mathclopedia}
               link = "https://mathclopedia.github.io/"
             />
 
             <PortfolioCard
               title = "Jellyfish Clock"
               description = {`Implemented a real-time clock local to the user’s timezone, deployed on iOS with Capacitor, Xcode and Github Pages`}
+              picture = {Jellyfish}
               link = "https://destructivebasket.github.io/jellyfish-clock/"
             />
 
             <PortfolioCard
               title = "Movie App"
               description = {`Implemented a real-time clock local to the user’s timezone, deployed on iOS with Capacitor, Xcode and Github Pages`}
+              picture = {Movie}
               link = "https://destructivebasket.github.io/movie-app-new/"
             />
 
@@ -44,6 +51,7 @@ const Portfolio = () => {
                 title = "Station 8"
                 description = {`Developed a horror game with Unity and C#, implementing AI pathfinding via NavMesh library
                                 Designed gameplay and storyboarding using Unity Timeline for cutscenes and sprite animations`}
+                picture = {Station8}
                 link = "https://www.youtube.com/watch?v=ql5_dtAqs_A&feature=youtu.be"
               />
             </div>

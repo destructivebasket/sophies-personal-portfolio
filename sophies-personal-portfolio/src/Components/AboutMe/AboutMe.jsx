@@ -10,7 +10,7 @@ const AboutMe = () => {
       
       <div className = "flex mt-20 space-x-50 space-y-4 max-lg:flex-col">
         
-        <img src = { Sophie } className = "w-[370px] rounded-2xl max-sm:w-[250px]"/>
+        <img src = { Sophie } className = "w-[370px] rounded-2xl max-sm:w-[250px] max-sm:translate-x-10"/>
 
         <div className="flex flex-col space-y-4">
           <h1 id = "about-me"> About Me </h1>
