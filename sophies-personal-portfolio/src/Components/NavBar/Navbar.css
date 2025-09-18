@@ -26,6 +26,6 @@ body {
 }
 
 .nav-bar-buttons {
-    @apply bg-transparent text-white font-[Poppins-Medium] hover:bg-purple-400 max-sm:w-[80px]
+    @apply bg-transparent text-white font-[Poppins-Medium] hover:bg-purple-400 max-sm:w-[100px]
     max-sm:text-[12px];
 }
