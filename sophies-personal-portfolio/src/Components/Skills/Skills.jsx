@@ -19,6 +19,7 @@ import Render from '../../assets/render.png';
 import Xcode from '../../assets/xcode.png';
 import Unity from '../../assets/unity.avif';
 import GirlsWhoCode from '../../assets/girlswhocode.webp';
+import CCNA from '../../assets/ccna.png';
 
 const Skills = () => {
   return (
@@ -124,6 +125,10 @@ const Skills = () => {
 
           <h4 className = "purple-gradient mt-10 max-md:translate-x-4"> Certifications </h4>
           <div className = "flex max-lg:flex-col space-x-10 mt-10 max-lg:ml-17 max-lg:space-y-10 mb-20">
+            <SkillsCard
+              skill = "Cisco Certified Network Associate"
+              image = {CCNA}
+            />
             <SkillsCard
               skill = "Intuit 1"
               image = {GirlsWhoCode}

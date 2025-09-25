@@ -19,7 +19,7 @@ const Portfolio = () => {
               description = {`Designed and developed a web travel planner using React, Ionic, and Tailwind CSS frameworks\n
                             Implemented AviationStack and SerpAPI to fetch real-time travel data and Google Maps locations\n
                             Integrated Firebase and Firestore for secure and scalable user data management\n
-                            Deployed website on Cloudflare and backend server on Render`}
+                            Deployed website on Cloudflare and backend server on Render. \nAPI's are not accessible at this time which will affect the user experience`}
               picture = {Emageo}
               link = "https://emageo.pages.dev/"
             />
