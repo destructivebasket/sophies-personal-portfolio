@@ -126,7 +126,7 @@ const Skills = () => {
           <h4 className = "purple-gradient mt-10 max-md:translate-x-4"> Certifications </h4>
           <div className = "flex max-lg:flex-col space-x-10 mt-10 max-lg:ml-17 max-lg:space-y-10 mb-20">
             <SkillsCard
-              skill = "Cisco Certified Network Associate"
+              skill = "CCNA"
               image = {CCNA}
             />
             <SkillsCard
