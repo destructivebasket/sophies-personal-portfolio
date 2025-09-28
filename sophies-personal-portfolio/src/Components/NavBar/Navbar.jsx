@@ -21,7 +21,7 @@ const Navbar = () => {
               <button className = "nav-bar-buttons"> Portfolio </button>
             </Link>
             <Link to = "/sophies-personal-portfolio/contact">
-              <button className = "nav-bar-buttons"> Contact </button>
+              <button className = "nav-bar-buttons max-sm:translate-x-1/2"> Contact </button>
             </Link>
         </div>
     </div>
