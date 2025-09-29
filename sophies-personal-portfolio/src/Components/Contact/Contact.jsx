@@ -20,10 +20,6 @@ const Contact = () => {
           <span> School Email: </span> 
           <span className = "text-gray-400"> sechoi3@uci.edu </span> 
         </p>
-        <p className = "text-left grid grid-cols-2 max-sm:text-[10px]"> 
-          <span> Phone: </span> 
-          <span className = "text-gray-400"> 626-734-3575 </span> 
-        </p>
       </div>
     </div>
   )
