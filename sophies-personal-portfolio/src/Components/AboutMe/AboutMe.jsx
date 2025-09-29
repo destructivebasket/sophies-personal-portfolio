@@ -23,9 +23,6 @@ const AboutMe = () => {
               <span> Name: </span> <span className = "text-gray-400"> Sophie Choi </span> 
             </p>
             <p className = "text-left grid grid-cols-2 max-md:text-[12px]"> 
-              <span> Date of Birth: </span> <span className = "text-gray-400"> August 23, 2007 </span> 
-            </p>
-            <p className = "text-left grid grid-cols-2 max-md:text-[12px]"> 
               <span> Located: </span> <span className = "text-gray-400"> Los Angeles, CA </span> 
               <br/> 
               <span className = "text-gray-400"> Irvine, CA </span> 
@@ -35,10 +32,6 @@ const AboutMe = () => {
               <span className = "text-gray-400"> Personal: sophie.elissa.choi@gmail.com </span> 
               <br/> 
               <span className = "text-gray-400"> School: sechoi3@uci.edu </span> 
-            </p>
-            <p className = "text-left grid grid-cols-2 max-md:text-[12px]"> 
-              <span> Phone: </span> 
-              <span className = "text-gray-400"> 626-734-3575 </span> 
             </p>
           </div>
         </div>
