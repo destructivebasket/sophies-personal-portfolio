@@ -1,1 +1,1 @@
-https://destructivebasket.github.io/sophies-personal-portfolio/
+https://sophieelissachoi.github.io/sophies-personal-portfolio/
