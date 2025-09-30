@@ -7,7 +7,7 @@ const Socials = () => {
   const location = useLocation();
   
   function imageSize () {
-    if (location.pathname === "/#/contact") {
+    if (location.pathname === "/contact") {
         return "w-[180px]";
     } else if (location.pathname === "/") {
         return "w-[60px]"
@@ -15,7 +15,7 @@ const Socials = () => {
   }
 
   function imageSpace () {
-    if (location.pathname === "/#/contact") {
+    if (location.pathname === "/contact") {
         return "space-x-20 max-sm:space-x-1";
     } else if (location.pathname === "/") {
         return "space-x-4"
