@@ -32,7 +32,7 @@ const Socials = () => {
             <img src = {LinkedIn} className = {imageSize()} /> 
         </a>
         <a 
-          href="https://github.com/destructivebasket" 
+          href="https://github.com/sophieelissachoi" 
           target="_blank" 
           rel="noopener noreferrer"
         >

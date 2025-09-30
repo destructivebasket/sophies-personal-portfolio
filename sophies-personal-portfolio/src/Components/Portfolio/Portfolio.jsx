@@ -36,14 +36,14 @@ const Portfolio = () => {
               title = "Jellyfish Clock"
               description = {`Implemented a real-time clock local to the user’s timezone, deployed on iOS with Capacitor, Xcode and Github Pages`}
               picture = {Jellyfish}
-              link = "https://destructivebasket.github.io/jellyfish-clock/"
+              link = "https://sophieelissachoi.github.io/jellyfish-clock/"
             />
 
             <PortfolioCard
               title = "Movie App"
               description = {`Implemented a real-time clock local to the user’s timezone, deployed on iOS with Capacitor, Xcode and Github Pages`}
               picture = {Movie}
-              link = "https://destructivebasket.github.io/movie-app-new/"
+              link = "https://sophieelissachoi.github.io/movie-app-new/"
             />
 
             <div className = "mb-10">
