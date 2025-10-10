@@ -27,7 +27,7 @@ const HomePage = () => {
           {/* Socials Icons */}
           <Socials/>
         </div>
-        <img src = { Sophie } className = "h-[400px] ml-100 rounded-xl max-sm:ml-1 max-sm:h-[370px] max-sm:w-[280px]"/>
+        <img src = { Sophie } className = "h-[400px] ml-100 rounded-xl max-sm:ml-1 max-sm:h-[430px] max-sm:w-[280px]"/>
       </div>
     </div>
   )
